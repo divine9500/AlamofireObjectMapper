@@ -109,7 +109,7 @@ extension DataRequest {
             let JSONObject = processResponse(request: request, response: response, data: data, keyPath: keyPath)
             
             if let JSONObject = JSONObject,
-                let parsedObject = (try? Mapper<T>(context: context, shouldIncludeNilValues: false).map(JSONObject: JSONObject) as T) {
+                let parsedObject = Mapper<T>(context: context, shouldIncludeNilValues: false).map(JSONObject: JSONObject as Any?) {
                 return parsedObject
             } else {
                 let failureReason = "ObjectMapper failed to serialize response."
@@ -165,7 +165,7 @@ extension DataRequest {
             
             if let JSONObject = processResponse(request: request, response: response, data: data, keyPath: keyPath){
                 
-                if let parsedObject = try? Mapper<T>(context: context, shouldIncludeNilValues: false).mapArray(JSONObject: JSONObject) as [T] {
+                if let parsedObject = Mapper<T>(context: context, shouldIncludeNilValues: false).mapArray(JSONObject: JSONObject as Any?) {
                     return parsedObject
                 }
             }
