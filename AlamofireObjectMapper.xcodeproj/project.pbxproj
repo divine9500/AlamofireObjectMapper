@@ -23,8 +23,6 @@
 		6AC787721BA87E01007BBD2B /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB2A0851AF27DF1001EBB20 /* AlamofireObjectMapper.framework */; };
 		7773481B2D14968B00FB9B2A /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 7773481A2D14968B00FB9B2A /* ObjectMapper */; };
 		7773481E2D14969E00FB9B2A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7773481D2D14969E00FB9B2A /* Alamofire */; };
-		E89A90241D6F5F620023C364 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89A8FFF1D6F5F480023C364 /* Alamofire.framework */; };
-		E89A90251D6F5F620023C364 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89A90171D6F5F520023C364 /* ObjectMapper.framework */; };
 		E89A90261D6F5F6A0023C364 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89A90031D6F5F480023C364 /* Alamofire.framework */; };
 		E89A90271D6F5F6A0023C364 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89A90191D6F5F520023C364 /* ObjectMapper.framework */; };
 		E89A90281D6F5F710023C364 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89A90071D6F5F480023C364 /* Alamofire.framework */; };
@@ -186,8 +184,6 @@
 			files = (
 				7773481B2D14968B00FB9B2A /* ObjectMapper in Frameworks */,
 				7773481E2D14969E00FB9B2A /* Alamofire in Frameworks */,
-				E89A90241D6F5F620023C364 /* Alamofire.framework in Frameworks */,
-				E89A90251D6F5F620023C364 /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
