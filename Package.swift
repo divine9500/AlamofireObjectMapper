@@ -14,6 +14,7 @@ let package = Package(name: "AlamofireObjectMapper",
 			  .package(url: "https://github.com/tristanhimmelman/ObjectMapper.git", from: "3.5.1")
     		      ],
                       targets: [.target(name: "AlamofireObjectMapper",
+                                        dependencies: ["Alamofire", "ObjectMapper"],
                                         path: "AlamofireObjectMapper"),
                                 .testTarget(name: "AlamofireObjectMapperTests",
                                             dependencies: ["AlamofireObjectMapper"],
